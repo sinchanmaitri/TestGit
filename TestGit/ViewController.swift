@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    
+    @IBAction func buttonTapped(sender:Any){
+        print("Hey, changes made")
     }
 
 
